@@ -3,7 +3,7 @@ import { ReactElement } from 'react';
 const privacy = (): ReactElement => {
   return (
     <div className="">
-      <div className="bg-gray-500 text-4xl text-center text-white font-semibold p-4">
+      <div className="bg-gray-500 min-h-full text-4xl text-center text-white font-semibold p-5">
         Privacy Policy
       </div>
       <div className="bg-gray-50 p-12">
