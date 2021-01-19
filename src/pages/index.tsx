@@ -4,7 +4,7 @@ import React, { ReactElement } from 'react';
 const IndexPage = (): ReactElement => (
   <>
     <Head>
-      <title>DNI</title>
+      <title>dni</title>
     </Head>
     <div className="bg-gray-50 min-h-screen">
       <div className="bg-gray-500 flex flex-1 shadow-sm justify-between">
@@ -12,14 +12,22 @@ const IndexPage = (): ReactElement => (
           href="/"
           className="pl-4 p-3 text-3xl text-center font-semibold text-white"
         >
-          DNI
+          dni
         </a>
-        <a
-          href="/aboutme"
-          className="pr-4 p-3.5 text-xl font-semibold text-white justify-center"
-        >
-          About Me
-        </a>
+        <div className="p-4">
+          <a
+            href="/blog"
+            className="pr-2 p-3.5 text-xl font-semibold text-white justify-center"
+          >
+            Blog
+          </a>
+          <a
+            href="/aboutme"
+            className="pr-4 p-3.5 text-xl font-semibold text-white justify-center"
+          >
+            About Me
+          </a>
+        </div>
       </div>
       <div className="text-5xl font-bold py-16 text-center">Hi! I'm Derek.</div>
       <div className="text-2xl font-bold pb-3 text-center">Projects</div>
