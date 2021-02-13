@@ -34,7 +34,7 @@ const IndexPage = (): ReactElement => (
       <div className="flex-col flex">
         <a
           className="text-2xl font-bold pb-3 text-center text-blue-500"
-          href="/minto"
+          href="https://chrome.google.com/webstore/detail/minto/hcgkjlalkeaekjkelpilagbjcengeebl"
         >
           Minto
         </a>
