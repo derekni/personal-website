@@ -39,31 +39,31 @@ const IndexPage = (): ReactElement => (
           className="text-2xl font-bold pb-3 text-center text-blue-500"
           href="https://chrome.google.com/webstore/detail/minto/hcgkjlalkeaekjkelpilagbjcengeebl"
         >
-          Minto
+          Minto: Productivity Chrome Extension
         </a>
         <a
           className="text-2xl font-bold pb-3 text-center text-blue-500"
           href="https://github.com/derekni/ascii-stream"
         >
-          Ascii Stream
-        </a>
-        <a
-          className="text-2xl font-bold pb-3 text-center text-blue-500"
-          href="https://apps.apple.com/us/app/jimmy-jumper-a-jumping-game/id1519102869"
-        >
-          Jimmy Jumper
+          Ascii Stream: ASCII art video calls [IvyHacks 2020 2nd Overall Hack]
         </a>
         <a
           className="text-2xl font-bold pb-3 text-center text-blue-500"
           href="https://apps.apple.com/us/app/johnny-jumper/id1516182300?ls=1"
         >
-          Johnny Jumper
+          Johnny Jumper: 2D jumper iOS game
         </a>
         <a
           className="text-2xl font-bold pb-3 text-center text-blue-500"
           href="https://apps.apple.com/us/app/tasktime-boost-productivity/id1424966230?ls=1"
         >
-          TaskTime
+          TaskTime: Productivity iOS app
+        </a>
+        <a
+          className="text-2xl font-bold pb-3 text-center text-blue-500"
+          href="https://apps.apple.com/us/app/jimmy-jumper-a-jumping-game/id1519102869"
+        >
+          Jimmy Jumper: Endless runner iOS game
         </a>
       </div>
     </div>
