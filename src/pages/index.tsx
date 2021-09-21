@@ -29,7 +29,7 @@ const IndexPage = (): ReactElement => (
           </a>
         </div>
       </div>
-      <div className="text-6xl font-bold py-20 text-center">
+      <div className="text-6xl font-bold pt-20 text-center">
         UNDER CONSTRUCTION
       </div>
       <div className="text-5xl font-bold py-16 text-center">Hi! I'm Derek.</div>
