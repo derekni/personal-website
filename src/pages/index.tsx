@@ -16,6 +16,12 @@ const IndexPage = (): ReactElement => (
         </a>
         <div className="p-4">
           <a
+            href="/resume.pdf"
+            className="pr-2 p-3.5 text-xl font-semibold text-white justify-center"
+          >
+            Resume
+          </a>
+          <a
             href="/blog"
             className="pr-2 p-3.5 text-xl font-semibold text-white justify-center"
           >
