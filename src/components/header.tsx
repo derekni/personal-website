@@ -1,21 +1,18 @@
 import { ReactElement } from 'react';
 
 const Header = (): ReactElement => (
-  <div className="flex flex-1 justify-between px-16 py-10">
+  <div className="flex flex-1 justify-between px-28 py-12">
     <a href="/" className="text-3xl text-center font-semibold pl-2">
       Derek Ni
     </a>
-    <div className="pr-2">
+    <div className="">
       <a
         href="/resume.pdf"
-        className="pr-2 p-3.5 text-lg font-semibold justify-center"
+        className="pr-6 p-3.5 text-lg font-semibold justify-center"
       >
         Resume
       </a>
-      <a
-        href="/aboutme"
-        className="pr-4 p-3.5 text-lg font-semibold justify-center"
-      >
+      <a href="/aboutme" className="p-3.5 text-lg font-semibold justify-center">
         About Me
       </a>
     </div>
