@@ -1,3 +1,4 @@
+import Footer from 'components/footer';
 import Header from 'components/header';
 import Head from 'next/head';
 import React, { ReactElement } from 'react';
@@ -37,6 +38,7 @@ const aboutme = (): ReactElement => (
           <img src="img/skydiving.jpg" className="rounded-lg" />
         </div>
       </div>
+      <Footer />
     </div>
   </>
 );

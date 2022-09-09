@@ -1,3 +1,4 @@
+import Footer from 'components/footer';
 import Project from 'components/project';
 import Head from 'next/head';
 import React, { ReactElement } from 'react';
@@ -18,7 +19,7 @@ const IndexPage = (): ReactElement => (
         Studying CS at Cornell.
         <br></br>Prev @ Asana, Fizz (YC S21), Amazon, Tesla.
       </div>
-      <div className="flex-col flex items-center pb-12">
+      <div className="flex-col flex items-center">
         <div className="grid grid-cols-3">
           <div>
             <Project
@@ -55,11 +56,12 @@ const IndexPage = (): ReactElement => (
               image="img/tasktime.jpg"
               link="https://github.com/derekni/tasktime"
               name="TaskTime"
-              description="A gamified to-do list app. Earn points for completing tasks and habits, and spend them on custom rewards. Note: this used to be on the App Store but since I didn't renew my developer license, and Apple took all my apps off the App Store."
+              description="A gamified to-do list app. Earn points for completing tasks and habits, and spend them on custom rewards. Note: this used to be on the App Store but since I didn't renew my developer license, Apple took all my apps off the App Store."
             ></Project>
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   </>
 );
