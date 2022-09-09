@@ -1,3 +1,4 @@
+import Header from 'components/header';
 import Head from 'next/head';
 import React, { ReactElement } from 'react';
 
@@ -6,62 +7,28 @@ const aboutme = (): ReactElement => (
     <Head>
       <title>About Me</title>
     </Head>
-    <div className="bg-gray-50 min-h-screen">
-      <div className="bg-gray-500 flex flex-1 shadow-sm justify-between">
-        <a
-          href="/"
-          className="pl-4 p-3 text-3xl text-center font-semibold text-white"
-        >
-          dni
-        </a>
-        <div className="p-4">
-          <a
-            href="/blog"
-            className="pr-2 p-3.5 text-xl font-semibold text-white justify-center"
-          >
-            Blog
-          </a>
-          <a
-            href="/aboutme"
-            className="pr-4 p-3.5 text-xl font-semibold text-white justify-center"
-          >
-            About Me
-          </a>
-        </div>
+    <div className="bg-sky-50 min-h-screen">
+      <Header />
+      <div className="text-5xl pl-28 py-2 font-semibold">Hey there!</div>
+      <div className="px-28 text-lg py-6">
+        I'm Derek, a Cornell senior studying Computer Science in Ithaca, NY. In
+        the past I have interned at Asana on the Track Anything team, Fizz (a YC
+        startup) as a backend engineer, Amazon on the Alexa Messaging Service
+        team, and Tesla on the Mobile App team.
       </div>
-      <div className="text-3xl pl-28 pt-20 mb-2 font-semibold">WHO IS HE?!</div>
-      <div className="px-28 text-lg mb-8">
-        I am a Cornell undergraduate studying Computer Science. I'm passionate
-        about learning, creating, and being outdoors. In my free time I listen
-        to podcasts (my favorite is Hidden Brain), play ping pong, and goof off
-        with friends.
+      <div className="px-28 text-lg mb-6">
+        I'm passionate about learning and creating. I have a variety of side
+        projects which were my solutions to problems I faced (mainly for
+        studying), which include a Chrome extension and mobile app for
+        productivity, as well as simple mobile games. In my free time I listen
+        to podcasts, beat my friends at ping pong, and take their money in
+        poker.
       </div>
-      <div className="text-3xl pl-28 mb-2 font-semibold">Music</div>
-      <div className="px-28 text-lg mb-8">
-        My favorite artists are Frank Ocean, Quinn XCII, and Khalid. My favorite
-        song of all time is A Drop in the Ocean by Ron Pope. Some of my other
-        favorites are Too Good by Drake, Location by Khalid, and Good Old Days
-        by Macklemore. Favorite song to dance to: Teach Me How to Dougie by Cali
-        Swag District.
-      </div>
-      <div className="text-3xl pl-28 mb-2 font-semibold">TV Shows</div>
-      <div className="px-28 text-lg mb-8">
-        My favorite movie of all time is Good Will Hunting. Honorable mentions
-        include Kimi no Na Wa and Kung Fu Panda. My favorite shows are Attack on
-        Titan, Tengen Toppa Gurren Lagann, and Iris.
-      </div>
-      <div className="text-3xl pl-28 mb-2 font-semibold">Books</div>
-      <div className="px-28 text-lg mb-8">
-        My favorite book of all time is The Great Gatsby. My other favorites
-        include Gone With the Wind, Can't Hurt Me, and Atomic Habits.
-      </div>
-      <div className="text-3xl pl-28 mb-2 font-semibold">Hobbies</div>
       <div className="px-28 text-lg mb-16">
-        I enjoy snowboarding, tennis, and ping pong with friends. When I'm not
-        hanging out with my friends, you can often find me at the gym, exploring
-        the great outdoors, or meditating. Though I do not particularly love
-        running, I ran a 5:25.6 during the pandemic (might as well see how fast
-        I can run if I can't go to the gym).
+        I consider myself a self-improvement fanatic, and believe there is
+        always room to grow. I've tried meditation, yoga, running, lifting, and
+        journaling. Reach out to me if you have any questions about these, or if
+        there's something cool I haven't tried yet!
       </div>
     </div>
   </>
