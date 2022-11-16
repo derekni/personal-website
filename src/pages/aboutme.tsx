@@ -12,7 +12,7 @@ const aboutme = (): ReactElement => (
       <Header />
       <div className="grid grid-cols-2 px-16">
         <div>
-          <div className="text-5xl pl-36 pb-2 font-semibold">Hey there!</div>
+          <div className="text-5xl pl-36 pb-2 font-semibold">Hey there 👋🏼</div>
           <div className="pl-36 pr-16 text-lg py-6">
             I'm Derek, a Cornell senior studying Computer Science in Ithaca, NY.
             In the past I have interned at Asana on the Track Anything team,

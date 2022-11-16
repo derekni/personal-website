@@ -1,3 +1,4 @@
+import DescriptionCycler from 'components/descriptionCycler';
 import Footer from 'components/footer';
 import Project from 'components/project';
 import Head from 'next/head';
@@ -14,9 +15,15 @@ const IndexPage = (): ReactElement => {
       </Head>
       <div className="bg-slate-50 min-h-screen">
         <Header />
-        <div className="text-5xl font-bold pt-4 text-center">
-          Hi, I'm Derek 👋🏼
-        </div>
+        <DescriptionCycler
+          descriptions={[
+            'Derek.',
+            'a ping pong player.',
+            'a poker fanatic.',
+            'amateur chef.',
+            'full-time boyfriend.',
+          ]}
+        />
         <div className="text-2xl font-bold py-8 text-center">
           Studying CS at Cornell.
           <br></br>Prev @ Asana, Fizz (YC S21), Amazon, Tesla.
