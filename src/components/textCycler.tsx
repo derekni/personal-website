@@ -1,11 +1,11 @@
 import { ReactElement, useEffect, useState } from 'react';
 
-import Description from './description';
-
-const DescriptionCycler = ({
+const TextCycler = ({
   descriptions,
+  intro,
 }: {
   descriptions: string[];
+  intro: string;
 }): ReactElement => {
   const [descriptor, setDescriptor] = useState('');
   const [index, setIndex] = useState(0);
@@ -31,20 +31,18 @@ const DescriptionCycler = ({
         setTimeout(() => {
           setCycles(cycles + 1);
           setDescriptor(descriptor.substring(0, descriptor.length - 1));
-        }, 3000);
+        }, 2400);
       } else {
         setCycles(cycles + 1);
         setDescriptor(descriptor.substring(0, descriptor.length - 1));
       }
     } else {
       setCycles(0);
-      setTimeout(() => {
-        if (index < descriptions.length - 1) {
-          setIndex(index + 1);
-        } else {
-          setIndex(0);
-        }
-      }, 2000);
+      if (index < descriptions.length - 1) {
+        setIndex(index + 1);
+      } else {
+        setIndex(0);
+      }
     }
   };
 
@@ -52,6 +50,12 @@ const DescriptionCycler = ({
     setTimeout(updateWord, 100);
   }, [descriptor, index]);
 
-  return <Description description={descriptor} />;
+  return (
+    <div className="text-5xl font-bold pt-4 text-center">
+      <span>
+        {intro} {descriptor}
+      </span>
+    </div>
+  );
 };
-export default DescriptionCycler;
+export default TextCycler;

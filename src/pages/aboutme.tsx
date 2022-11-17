@@ -1,5 +1,6 @@
 import Footer from 'components/footer';
 import Header from 'components/header';
+import TextCycler from 'components/textCycler';
 import Head from 'next/head';
 import React, { ReactElement } from 'react';
 
@@ -38,6 +39,20 @@ const aboutme = (): ReactElement => (
           <img src="img/skydiving.jpg" className="rounded-lg" />
         </div>
       </div>
+      <TextCycler
+        intro="Ask me about "
+        descriptions={[
+          'productivity hacks.',
+          'psychology podcasts.',
+          'running.',
+          'amateur cooking recipes.',
+          'vitamins.',
+          'journaling.',
+          'meditating.',
+          'anime.',
+        ]}
+      />
+
       <Footer />
     </div>
   </>

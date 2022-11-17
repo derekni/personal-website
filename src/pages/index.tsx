@@ -1,6 +1,6 @@
-import DescriptionCycler from 'components/descriptionCycler';
 import Footer from 'components/footer';
 import Project from 'components/project';
+import TextCycler from 'components/textCycler';
 import Head from 'next/head';
 import React, { ReactElement } from 'react';
 
@@ -15,13 +15,18 @@ const IndexPage = (): ReactElement => {
       </Head>
       <div className="bg-slate-50 min-h-screen">
         <Header />
-        <DescriptionCycler
+        <TextCycler
+          intro="Hi, I'm "
           descriptions={[
             'Derek.',
-            'a ping pong player.',
             'a poker fanatic.',
-            'amateur chef.',
-            'full-time boyfriend.',
+            'a health nut.',
+            'a ping pong player.',
+            'an amateur chef.',
+            'a nature seeker.',
+            'a part-time runner.',
+            'an aspiring hooper.',
+            'hobbyist snowboarder.',
           ]}
         />
         <div className="text-2xl font-bold py-8 text-center">
