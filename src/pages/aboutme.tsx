@@ -44,11 +44,12 @@ const aboutme = (): ReactElement => (
         descriptions={[
           'productivity hacks.',
           'psychology podcasts.',
+          'taking a dopamine detox.',
           'running.',
           'amateur cooking recipes.',
-          'vitamins.',
           'journaling.',
           'meditating.',
+          'vitamins.',
           'anime.',
         ]}
       />
