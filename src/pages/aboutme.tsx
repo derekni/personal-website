@@ -28,6 +28,14 @@ const aboutme = (): ReactElement => (
             listen to podcasts, beat my friends at ping pong, and take their
             money in poker.
           </div>
+          <div className="pl-36 pr-16 text-lg mb-6">
+            Favorite shows: Your Lie in April, Crash Landing On You, Tengen
+            Toppa Gurren Lagann, Rick and Morty, and One Punch Man. Favorite
+            movies: Your Name, About Time, The Adam Project, Kingsman, and The
+            Notebook. Favorite books: Looking for Alaska, The Great Gatsby,
+            Atomic Habits, Can't Hurt Me, and Solo Leveling (which is a manhwa
+            but kind of counts).
+          </div>
           <div className="pl-36 pr-16 text-lg mb-16">
             I consider myself a self-improvement fanatic, and believe there is
             always room to grow. I've tried meditation, yoga, running, lifting,
