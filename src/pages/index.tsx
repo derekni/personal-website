@@ -26,7 +26,7 @@ const IndexPage = (): ReactElement => {
             'a nature seeker.',
             'a part-time runner.',
             'an aspiring hooper.',
-            'hobbyist snowboarder.',
+            'a hobbyist snowboarder.',
           ]}
         />
         <div className="text-2xl font-bold py-8 text-center">

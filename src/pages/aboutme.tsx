@@ -33,8 +33,7 @@ const aboutme = (): ReactElement => (
             Toppa Gurren Lagann, Rick and Morty, and One Punch Man. Favorite
             movies: Your Name, About Time, The Adam Project, Kingsman, and The
             Notebook. Favorite books: Looking for Alaska, The Great Gatsby,
-            Atomic Habits, Can't Hurt Me, and Solo Leveling (which is a manhwa
-            but kind of counts).
+            Atomic Habits, Can't Hurt Me, and Solo Leveling.
           </div>
           <div className="pl-36 pr-16 text-lg mb-16">
             I consider myself a self-improvement fanatic, and believe there is
