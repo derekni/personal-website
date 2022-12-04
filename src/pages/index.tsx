@@ -45,9 +45,9 @@ const IndexPage = (): ReactElement => {
               <div className="pb-1" />
               <Project
                 image="img/johnny-jumper.gif"
-                link="https://apps.apple.com/us/app/johnny-jumper/id1516182300?platform=ipad"
+                link="https://play.google.com/store/apps/details?id=com.nibrothers.johnnyjumper"
                 name="Johnny Jumper"
-                description="A simple and fun iOS jumping game that just requires tapping. Tap your way to the top! Note: used to be on the App Store."
+                description="A simple and fun jumping game that just requires tapping. Tap your way to the top! Note: used to be on the App Store, but now just hosted on a web site."
               ></Project>
             </div>
             <div>
@@ -60,7 +60,7 @@ const IndexPage = (): ReactElement => {
               <div className="pb-1" />
               <Project
                 image="img/jimmy-jumper.gif"
-                link="https://apps.apple.com/us/app/jimmy-jumper-a-jumping-game/id1519102869"
+                link="https://play.google.com/store/apps/details?id=com.NiBrothers.JimmyJumper&hl=en_US&gl=US"
                 name="Jimmy Jumper"
                 description="An endless running and jumping iOS game. Note: used to be on the App Store."
               ></Project>
