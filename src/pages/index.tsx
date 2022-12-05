@@ -47,7 +47,7 @@ const IndexPage = (): ReactElement => {
                 image="img/johnny-jumper.gif"
                 link="https://play.google.com/store/apps/details?id=com.nibrothers.johnnyjumper"
                 name="Johnny Jumper"
-                description="A simple and fun jumping game that just requires tapping. Tap your way to the top! Note: used to be on the App Store, but now just hosted on a web site."
+                description="A simple and fun jumping game that just requires tapping. Tap your way to the top!"
               ></Project>
             </div>
             <div>
@@ -62,7 +62,7 @@ const IndexPage = (): ReactElement => {
                 image="img/jimmy-jumper.gif"
                 link="https://play.google.com/store/apps/details?id=com.NiBrothers.JimmyJumper&hl=en_US&gl=US"
                 name="Jimmy Jumper"
-                description="An endless running and jumping iOS game. Note: used to be on the App Store."
+                description="An endless running and jumping iOS game."
               ></Project>
             </div>
             <div>
@@ -70,7 +70,7 @@ const IndexPage = (): ReactElement => {
                 image="img/tasktime.jpg"
                 link="https://github.com/derekni/tasktime"
                 name="TaskTime"
-                description="A gamified to-do list app. Earn points for completing tasks and habits, and spend them on custom rewards. Note: this used to be on the App Store but since I didn't renew my developer license, Apple took all my apps off the App Store."
+                description="A gamified to-do list app. Earn points for completing tasks and habits, and spend them on custom rewards."
               ></Project>
             </div>
           </div>
