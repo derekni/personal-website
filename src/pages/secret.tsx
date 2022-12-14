@@ -15,6 +15,7 @@ const secret = (): ReactElement => (
       </div>
       <br></br>
       <div className="flex items-center flex-col">
+        <img src="img/contemplation.JPG" style={{ width: 450 }}></img>
         <a href="https://open.spotify.com/user/1244367287?si=e681f381a1fe40e4">
           Check out my Spotify playlists (hyperlinked)!
         </a>
