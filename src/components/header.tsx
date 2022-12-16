@@ -12,6 +12,9 @@ const Header = (): ReactElement => (
       >
         Resume
       </a>
+      <a href="/blog" className="p-3.5 text-lg font-semibold justify-center">
+        Blog
+      </a>
       <a href="/aboutme" className="p-3.5 text-lg font-semibold justify-center">
         About Me
       </a>

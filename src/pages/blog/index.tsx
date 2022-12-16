@@ -1,47 +1,66 @@
+import Footer from 'components/footer';
+import Project from 'components/project';
+import TextCycler from 'components/textCycler';
 import Head from 'next/head';
 import React, { ReactElement } from 'react';
 
-const IndexPage = (): ReactElement => (
-  <>
-    <Head>
-      <title>Blog</title>
-    </Head>
-    <div className="bg-gray-50 min-h-screen">
-      <div className="bg-gray-500 flex flex-1 shadow-sm justify-between">
-        <a
-          href="/"
-          className="pl-4 p-3 text-3xl text-center font-semibold text-white"
-        >
-          dni
-        </a>
-        <div className="p-4">
-          <a
-            href="/blog"
-            className="pr-2 p-3.5 text-xl font-semibold text-white justify-center"
-          >
-            Blog
-          </a>
-          <a
-            href="/aboutme"
-            className="pr-4 p-3.5 text-xl font-semibold text-white justify-center"
-          >
-            About Me
-          </a>
-        </div>
-      </div>
-      <div className="text-4xl font-bold pt-16 pb-12 text-center">
-        Some personal reflections.
-      </div>
-      <div className="flex-col flex">
-        <a
-          className="text-2xl font-bold pb-3 text-center text-blue-500"
-          href="blog/rediscovering"
-        >
-          Rediscovering myself during a global pandemic
-        </a>
-      </div>
-    </div>
-  </>
-);
+import Header from '../../components/header';
 
-export default IndexPage;
+const BlogHomepage = (): ReactElement => {
+  return (
+    <>
+      <Head>
+        <title>Derek Ni</title>
+      </Head>
+      <div className="bg-slate-50 min-h-screen">
+        <Header />
+        <TextCycler intro="" descriptions={['Hi, welcome to my blog.']} />
+        <div className="flex-col flex items-center">
+          <div className="grid grid-cols-3">
+            <div>
+              <Project
+                image=""
+                link="/blog/rediscovering.tsx"
+                name="Rediscovering"
+                description="A pandemic reflection."
+              ></Project>
+              <div className="pb-1" />
+              <Project
+                image=""
+                link=""
+                name="Placeholder"
+                description="Placeholder."
+              ></Project>
+            </div>
+            <div>
+              <Project
+                image=""
+                link=""
+                name="Placeholder"
+                description="Placeholder."
+              ></Project>
+              <div className="pb-1" />
+              <Project
+                image=""
+                link=""
+                name="Placeholder"
+                description="Placeholder."
+              ></Project>
+            </div>
+            <div>
+              <Project
+                image=""
+                link=""
+                name="Placeholder"
+                description="Placeholder."
+              ></Project>
+            </div>
+          </div>
+        </div>
+        <Footer />
+      </div>
+    </>
+  );
+};
+
+export default BlogHomepage;

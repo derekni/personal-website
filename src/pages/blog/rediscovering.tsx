@@ -1,35 +1,16 @@
 import Head from 'next/head';
 import React, { ReactElement } from 'react';
 
-const rediscovering = (): ReactElement => (
+import Header from '../../components/header';
+
+const RediscoveringBlogPost = (): ReactElement => (
   <>
     <Head>
       <title>Blog</title>
     </Head>
     <div className="bg-gray-50 min-h-screen pb-16">
-      <div className="bg-gray-500 flex flex-1 shadow-sm justify-between">
-        <a
-          href="/"
-          className="pl-4 p-3 text-3xl text-center font-semibold text-white"
-        >
-          dni
-        </a>
-        <div className="p-4">
-          <a
-            href="/blog"
-            className="pr-2 p-3.5 text-xl font-semibold text-white justify-center"
-          >
-            Blog
-          </a>
-          <a
-            href="/aboutme"
-            className="pr-4 p-3.5 text-xl font-semibold text-white justify-center"
-          >
-            About Me
-          </a>
-        </div>
-      </div>
-      <div className="text-4xl font-semibold pt-16 pb-12 text-center">
+      <Header />
+      <div className="text-4xl font-semibold pb-12 text-center">
         Rediscovering myself during a global pandemic
       </div>
       <div className="text-lg px-36 pb-4">
@@ -147,4 +128,4 @@ const rediscovering = (): ReactElement => (
   </>
 );
 
-export default rediscovering;
+export default RediscoveringBlogPost;

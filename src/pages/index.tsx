@@ -7,7 +7,6 @@ import React, { ReactElement } from 'react';
 import Header from '../components/header';
 
 const IndexPage = (): ReactElement => {
-  const colors = ['#17252A', '#2B7A78', '#3AAFA9', '#DEF2F1', '#FEFFFF'];
   return (
     <>
       <Head>
