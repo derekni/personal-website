@@ -20,8 +20,8 @@ const BlogHomepage = (): ReactElement => {
             <div>
               <Project
                 image=""
-                link="/blog/rediscovering.tsx"
-                name="Rediscovering"
+                link="/blog/rediscovering"
+                name="Rediscovering Myself During a Global Pandemic"
                 description="A pandemic reflection."
               ></Project>
               <div className="pb-1" />
