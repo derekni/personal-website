@@ -11,58 +11,54 @@ const aboutme = (): ReactElement => (
     </Head>
     <div className="bg-slate-50 min-h-screen">
       <Header />
-      <div className="grid grid-cols-2 px-16">
+      <div className="grid grid-cols-2 px-28">
         <div>
-          <div className="text-5xl pl-36 pb-2 font-semibold">
+          <div className="text-4xl pb-2 font-semibold">
             Hey there <a href="secret">👋🏼</a>
           </div>
-          <div className="pl-36 pr-16 text-lg py-6">
+          <div className="pr-16 text-lg py-6">
             I'm Derek, a Cornell senior studying Computer Science in Ithaca, NY.
-            In the past I have interned at Asana on the Track Anything team,
-            Fizz (a YC startup) as a backend engineer, Amazon on the Alexa
-            Messaging Service team, and Tesla on the Mobile App team.
-          </div>
-          <div className="pl-36 pr-16 text-lg mb-6">
             I'm passionate about learning and creating. I have a variety of side
-            projects which were solutions to problems I faced (mainly for
+            projects which were geeky solutions to problems I faced (mainly for
             studying), which include a Chrome extension and mobile app for
-            productivity, as well as simple mobile games. In my free time I
-            listen to podcasts, beat my friends at ping pong, and take their
-            money in poker.
+            productivity, an MCAT bot, and a few simple mobile games. I'm
+            currently working on creating a new productivity app to integrate
+            with my Chrome extension, Minto.
           </div>
-          <div className="pl-36 pr-16 text-lg mb-6">
-            Favorite shows: Your Lie in April, Crash Landing On You, Tengen
-            Toppa Gurren Lagann, Rick and Morty, and One Punch Man. Favorite
-            movies: Your Name, About Time, The Adam Project, Kingsman, and The
-            Notebook. Favorite books: Looking for Alaska, The Great Gatsby,
-            Atomic Habits, Can't Hurt Me, and Solo Leveling.
+          <div className="pr-16 text-lg mb-6">
+            As a tech dude, I spend way too much time in front of screens, so I
+            try to avoid them in my free time as much as I can. In my free time
+            I listen to podcasts, play tennis, beat my friends at ping pong,
+            cook fancy dinners with them, and take their money in poker. I'm
+            currently learning how to play piano and expand my culinary skills
+            outside of fancy pastas. I'm also an avid reader. My favorite books
+            are Can't Hurt Me and Atomic Habits, and I'm currently reading
+            Dopamine Nation.
           </div>
-          <div className="pl-36 pr-16 text-lg mb-16">
-            I consider myself a self-improvement fanatic, and believe there is
-            always room to grow. I've tried meditation, yoga, running, lifting,
-            and journaling. Reach out to me if you have any questions about
-            these, or if there's something cool I haven't tried yet!
+          <div className="pr-16 text-lg mb-16">
+            After a 180-day dopamine detox during lockdown, I learned so much
+            more about myself, what makes me happy, and how addicting
+            self-improvement can be. I believe there is always room to grow.
+            I've tried meditation, yoga, running, lifting, and journaling. Reach
+            out to me if you have any questions about these, or if there's
+            something cool I haven't tried yet!
           </div>
         </div>
-        <div className="max-w-md">
-          <img src="img/skydiving.jpg" className="rounded-lg" />
-        </div>
+        <img src="img/skydiving.jpg" className="rounded-lg" />
       </div>
       <TextCycler
         intro="Ask me about "
         descriptions={[
           'productivity hacks.',
+          'biohacking.',
           'psychology podcasts.',
           'taking a dopamine detox.',
           'running.',
           'amateur cooking recipes.',
           'journaling.',
           'meditating.',
-          'vitamins.',
-          'anime.',
         ]}
       />
-
       <Footer />
     </div>
   </>

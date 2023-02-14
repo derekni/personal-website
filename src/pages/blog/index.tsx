@@ -14,7 +14,7 @@ const BlogHomepage = (): ReactElement => {
       </Head>
       <div className="bg-slate-50 min-h-screen">
         <Header />
-        <TextCycler intro="" descriptions={['Hi, welcome to my blog.']} />
+        <TextCycler intro="Hi" descriptions={[', welcome to my blog.']} />
         <div className="flex-col flex items-center">
           <div className="grid grid-cols-3">
             <div>
@@ -25,36 +25,17 @@ const BlogHomepage = (): ReactElement => {
                 description="A pandemic reflection."
               ></Project>
               <div className="pb-1" />
-              <Project
-                image=""
-                link=""
-                name="Placeholder"
-                description="Placeholder."
-              ></Project>
             </div>
             <div>
               <Project
                 image=""
-                link=""
-                name="Placeholder"
-                description="Placeholder."
+                link="/blog/songs"
+                name="My Favorite Songs"
+                description="Music is a huge part of my life. Here are some of my favorite songs."
               ></Project>
               <div className="pb-1" />
-              <Project
-                image=""
-                link=""
-                name="Placeholder"
-                description="Placeholder."
-              ></Project>
             </div>
-            <div>
-              <Project
-                image=""
-                link=""
-                name="Placeholder"
-                description="Placeholder."
-              ></Project>
-            </div>
+            <div></div>
           </div>
         </div>
         <Footer />
