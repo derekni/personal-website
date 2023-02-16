@@ -8,7 +8,7 @@ const Header = (): ReactElement => (
     >
       Derek Ni
     </a>
-    <div className="font-semibold text-sm tablet:text-base laptop:text-lg">
+    <div className="font-semibold text-sm tablet:text-base laptop:text-lg self-center">
       <a href="/resume.pdf" className="pr-2 tablet:pr-3 laptop:pr-3.5">
         Resume
       </a>

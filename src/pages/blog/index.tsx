@@ -19,26 +19,19 @@ const BlogHomepage = (): ReactElement => {
           descriptions={['Hi, welcome to my blog.', 'Hi, welcome to my blog.']}
         />
         <div className="flex-col flex items-center">
-          <div className="grid grid-cols-3">
-            <div>
-              <Project
-                image=""
-                link="/blog/rediscovering"
-                name="Rediscovering Myself During a Global Pandemic"
-                description="A pandemic reflection."
-              ></Project>
-              <div className="pb-1" />
-            </div>
-            <div>
-              <Project
-                image=""
-                link="/blog/songs"
-                name="My Favorite Songs"
-                description="Music is a huge part of my life. Here are some of my favorite songs."
-              ></Project>
-              <div className="pb-1" />
-            </div>
-            <div></div>
+          <div className="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3">
+            <Project
+              image="img/reflection.png"
+              link="/blog/rediscovering"
+              name="Rediscovering Myself During a Global Pandemic"
+              description="A pandemic reflection."
+            ></Project>
+            <Project
+              image="img/music monkey.png"
+              link="/blog/songs"
+              name="My Favorite Songs"
+              description="Music is a huge part of my life. Here are some of my favorite songs."
+            ></Project>
           </div>
         </div>
         <Footer />

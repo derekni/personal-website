@@ -28,7 +28,7 @@ const IndexPage = (): ReactElement => {
             'a hobbyist snowboarder.',
           ]}
         />
-        <div className="text-lg tablet:text-xl laptop:text-2xl font-bold py-8 text-center">
+        <div className="text-lg tablet:text-xl laptop:text-2xl font-bold py-1 tablet:py-4 laptop:py-7 text-center">
           Studying CS at Cornell.
           <br></br>Prev @ Asana, Fizz (YC S21), Amazon, Tesla.
         </div>
@@ -45,6 +45,12 @@ const IndexPage = (): ReactElement => {
               link="https://github.com/derekni/ascii-stream"
               name="Ascii Stream"
               description="No more laggy video calls! Ascii Stream uses ASCII art instead of video to save on bandwidth. 2nd Best Overall Hack for IvyHacks 2020."
+            ></Project>
+            <Project
+              image="img/mcat logo.png"
+              link="https://github.com/derekni/mcat-signup-bot"
+              name="MCAT Bot"
+              description="Bot hosted on EC2 instance to keep checking for MCAT location availabilities. Sends texts and calls to a specified number through Twilio when an appointment is available."
             ></Project>
             <Project
               image="img/tasktime.jpg"
