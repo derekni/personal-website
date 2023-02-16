@@ -51,7 +51,7 @@ const TextCycler = ({
   }, [descriptor, index]);
 
   return (
-    <div className="text-5xl font-bold pt-4 text-center">
+    <div className="text-3xl tablet:text-4xl laptop:text-5xl font-bold pt-4 text-center">
       <span>
         {intro} {descriptor}
       </span>

@@ -14,7 +14,10 @@ const BlogHomepage = (): ReactElement => {
       </Head>
       <div className="bg-slate-50 min-h-screen">
         <Header />
-        <TextCycler intro="Hi" descriptions={[', welcome to my blog.']} />
+        <TextCycler
+          intro=""
+          descriptions={['Hi, welcome to my blog.', 'Hi, welcome to my blog.']}
+        />
         <div className="flex-col flex items-center">
           <div className="grid grid-cols-3">
             <div>
