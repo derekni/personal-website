@@ -8,7 +8,7 @@ const FramingBlogPost = (): ReactElement => (
     <Head>
       <title>Framing life</title>
     </Head>
-    <div className="bg-gray-50 min-h-screen pb-16">
+    <div className="bg-slate-50 min-h-screen">
       <Header />
       <div className="text-4xl font-semibold pb-12 text-center">
         Framing my way to a better life

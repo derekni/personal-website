@@ -3,16 +3,16 @@ import React, { ReactElement } from 'react';
 
 import Header from '../../components/header';
 
+import Title from './title';
+
 const FavoriteSongsPost = (): ReactElement => (
   <>
     <Head>
       <title>Favorite songs</title>
     </Head>
-    <div className="bg-gray-50 min-h-screen pb-16">
+    <div className="bg-slate-50 min-h-screen">
       <Header />
-      <div className="text-4xl font-semibold pb-12 text-center">
-        My Favorite Songs
-      </div>
+      <Title>My Favorite Songs</Title>
       <div className="text-lg px-36 pb-4">
         Music and podcasts are a huge part of my life. Whenever I'm working out,
         I'm either listening to a podcast by Huberman Lab or Hidden Brain, or

@@ -3,16 +3,16 @@ import React, { ReactElement } from 'react';
 
 import Header from '../../components/header';
 
+import Title from './title';
+
 const RediscoveringBlogPost = (): ReactElement => (
   <>
     <Head>
       <title>Blog</title>
     </Head>
-    <div className="bg-gray-50 min-h-screen pb-16">
+    <div className="bg-slate-50 min-h-screen">
       <Header />
-      <div className="text-4xl font-semibold pb-12 text-center">
-        Rediscovering myself during a global pandemic
-      </div>
+      <Title>Rediscovering myself during a global pandemic</Title>
       <div className="text-lg px-36 pb-4">
         During the pandemic, I was lucky enough to have all of my basic needs
         met. Being stuck at home gave me a lot of time and space to reflect on

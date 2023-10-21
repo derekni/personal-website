@@ -6,6 +6,8 @@ import React, { ReactElement } from 'react';
 
 import Header from '../../components/header';
 
+import Title from './title';
+
 const BlogHomepage = (): ReactElement => {
   return (
     <>
@@ -14,12 +16,9 @@ const BlogHomepage = (): ReactElement => {
       </Head>
       <div className="bg-slate-50 min-h-screen">
         <Header />
-        <TextCycler
-          intro=""
-          descriptions={['Hi, welcome to my blog.', 'Hi, welcome to my blog.']}
-        />
-        <div className="flex-col flex items-center">
-          <div className="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3">
+        <Title>Hi, welcome to my blog.</Title>
+        <div className="flex-col flex items-center pt-1 tablet:pt-4 laptop:pt-7">
+          <div className="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 ">
             <Project
               image="img/reflection.png"
               link="/blog/rediscovering"
