@@ -29,8 +29,8 @@ const IndexPage = (): ReactElement => {
           ]}
         />
         <div className="text-lg tablet:text-xl laptop:text-2xl font-bold py-1 tablet:py-4 laptop:py-7 text-center">
-          Studying CS at Cornell.
-          <br></br>Prev @ Asana, Fizz (YC S21), Amazon, Tesla.
+          Building cool stuff at Asana.
+          <br></br>Prev @ Fizz (YC S21), Amazon, Tesla.
         </div>
         <div className="flex-col flex items-center">
           <div className="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3">
