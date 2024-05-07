@@ -12,7 +12,7 @@ const RediscoveringBlogPost = (): ReactElement => (
     </Head>
     <div className="bg-slate-50 min-h-screen">
       <Header />
-      <Title>Rediscovering myself during a global pandemic</Title>
+      <Title text="Rediscovering myself during a global pandemic" />
       <div className="text-lg px-36 pb-4">
         During the pandemic, I was lucky enough to have all of my basic needs
         met. Being stuck at home gave me a lot of time and space to reflect on

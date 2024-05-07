@@ -16,7 +16,7 @@ const BlogHomepage = (): ReactElement => {
       </Head>
       <div className="bg-slate-50 min-h-screen">
         <Header />
-        <Title>Hi, welcome to my blog.</Title>
+        <Title text="Hi, welcome to my blog." />
         <div className="flex-col flex items-center pt-1 tablet:pt-4 laptop:pt-7">
           <div className="grid grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-3 ">
             <Project

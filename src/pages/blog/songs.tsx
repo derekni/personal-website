@@ -12,7 +12,7 @@ const FavoriteSongsPost = (): ReactElement => (
     </Head>
     <div className="bg-slate-50 min-h-screen">
       <Header />
-      <Title>My Favorite Songs</Title>
+      <Title text="My Favorite Songs" />
       <div className="text-lg px-36 pb-4">
         Music and podcasts are a huge part of my life. Whenever I'm working out,
         I'm either listening to a podcast by Huberman Lab or Hidden Brain, or
